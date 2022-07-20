@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.loginMain{
+    /* border:1px solid red; */
+    width:65%;
+    height:500px;
+    margin:50px auto auto auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.loginMainUpper{
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.loginMainUpperLeft{
+    /* border: 1px solid black; */
+    width:40%;
+}
+.loginMainUpperLeft>h1{
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>input{
+    padding:10px 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+form>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+form>div>p{
+    color: blueviolet;
+}
+form label{
+    color: rgb(87, 84, 84);
+}
+form>div+input{
+    background-color: rgb(157, 85, 224);
+    border: 0px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.loginMainUpperLeft>button{
+    width:100%;
+    margin-top: 30px;
+    padding:9px 20px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(157, 85, 224);
+    font:bold;
+    border:3px solid rgb(157, 85, 224);
+    border-radius: 3px;
+}
+.loginMainUpperRight{
+    /* border: 1px solid blue; */
+    width:40%;
+    margin-top: 50px;
+}
+.loginMainUpperRight>div{
+    /* border:1px solid black; */
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 5px 5px;
+    display: flex;
+    height: 40px;
+    width:70%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.loginMainUpperRight>div>img{
+    height: 80%;
+    margin-right: 20px;
+}
+.loginMainLower{
+    /* border:1px solid orange; */
+    height: 70px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+}
+.loginMainLower>button{
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(157, 85, 224);
+    color: white;
+}
+.loginMainLower>h3{
+    color: rgb(116, 113, 113);
+}
