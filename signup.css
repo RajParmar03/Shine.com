@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.signUpNav{
+    /* border:1px solid red; */
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.signUpNav>div:nth-child(1){
+    height: 100%;
+    width:30%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 50px;
+}
+.signUpNav>div:nth-child(2){
+    height: 100%;
+    width:10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.signUpNav>div>img{
+    height: 100%;
+}
+.signUpNav>div>button{
+    border: 0px;
+    border-radius: 5px;
+    padding:10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:rgb(149, 113, 196) ;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main{
+    /* border:1px solid red; */
+    width:70%;
+    height: 100%;
+    margin: 50px auto auto auto;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.mainLeft{
+    /* border:1px solid blue; */
+    width:40%;
+    height: 60%;
+    /* margin:80px auto 80px 50px; */
+}
+mainLeft>div:nth-child(1){
+    margin-bottom: 100px;
+}
+.mainLeft>div:nth-child(2){
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mainLeft>div:nth-child(2)>h2{
+    margin-bottom: 20px;
+   
+}
+.mainLeft>div:nth-child(2)>p:nth-child(2){
+    margin-bottom: 30px;
+    color: rgb(131, 131, 131);
+}
+.mainLeft>div:nth-child(2)>button{
+    border: 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: bold;
+    line-height: 20px;
+    color: white;
+    background-color:rgb(149, 113, 196);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.mainLeft>div:nth-child(2)>p:nth-child(4){
+    width:65%;
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+    line-height: 16px;
+}
+.mainRight{
+    /* border:1px solid blue; */
+    width:45%;
+    height: 60%;
+    /* margin:80px auto 80px 50px;*/
+}
+.mainRight>h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.mainRight>p:nth-child(2){
+    font-size: 14px;
+    color: rgb(100, 99, 99);
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>input{
+    padding:10px 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    
+    
+}
+form>input:nth-child(3){
+    margin-bottom: 0px;
+}
+form>p{
+    font-size: 10px;
+    color: rgb(136, 136, 136);
+    margin-bottom: 20px;
+}
+form label{
+    font-size: 10px;
+    color: rgb(114, 114, 114);
+}
+form>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+form>div+input{
+    background-color:rgb(149, 113, 196);
+    border: 0px;
+    font-size: 20px;
+    color: white;
+}
+.mainRight>div{
+    /* border:1px solid yellow; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    width: 100%;
+}
+.mainRight>div>div{
+    /* border:1px solid orange; */
+    width:25%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.mainRight>div>div>img{
+    height: 90%;
+}
+.mainRight>div>div>p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.someText{
+    width:65%;
+    margin: 20px auto 20px auto;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+footer{
+    height:50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+    border:0.1px solid rgb(141, 140, 140);
+    background-color: rgb(236, 231, 231);
+}
+
+
