@@ -1,0 +1,566 @@
+/* This is the top most part of the main part : Three round tabs part. */
+.threeRoundTabs{
+    /* border:1px solid red; */
+    width:40%;
+    height: 100px;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+.threeRoundTabs>div{
+    /* border:1px solid blue; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.threeRoundTabs>div>img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.threeRoundTabs>div>p{
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+
+/* <!-- This is the second part of the main part : Two long circle part. --> */
+.twoLongCircle{
+    /* border:1px solid red; */
+    width:45%;
+    margin:30px auto auto auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.twoLongCircle>div{
+    /* border:1px solid blue; */
+    display: flex;
+    align-items: center;
+    padding:5px 30px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(46, 45, 45);
+    background-color: rgba(156, 152, 214, 0.658);
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.twoLongCircle>div:hover{
+    border:3px solid rgba(101, 91, 245, 0.658);
+    background-color: white;
+    color: rgba(101, 91, 245, 0.658);
+}
+
+/* <!-- This is the third part of the main part : 5 cards. --> */
+.fiveCards{
+    /* border:1px solid red; */
+    width:80%;
+    margin: 20px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fiveCards>div{
+    /* border:1px solid blue; */
+    width:17%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fiveCards>div>img:nth-child(1){
+    width:100%;
+}
+.fiveCards>div>img:nth-child(2){
+    width:50%;
+}
+
+/* <!-- This is the forth part of the main part : heading and the 3 cards. --> */
+.earlyApplicant{
+    /* border:1px solid red; */
+    width:80%;
+    margin:60px auto auto auto;
+}
+.earlyApplicant>h1{
+    text-align:center;
+}
+.earlyApplicant>div{
+    /* border:1px solid blue; */
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.earlyApplicant>div>div{
+    /* border:1px solid black; */
+    width:30%;
+    padding:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.earlyApplicant>div>div:hover{
+    border:1px solid blueviolet;
+}
+.earlyApplicant p{
+    font-size: 14px;
+    color:rgb(99, 99, 99);
+    margin-bottom:15px;
+}
+.earlyApplicant ul{
+    display: flex;
+    margin:15px 0px;
+    font-size:12px;
+    color:rgb(107, 105, 105);
+    width:80%;
+    justify-content: space-around;
+}
+.earlyApplicant button{
+    margin-left: 80%;
+    border:none;
+    background-color: white;
+    color:blueviolet;
+    font-weight:bold;
+}
+.earlyApplicant>p{
+    color:blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* This is the fifth part of the main part : Remote Jobs part. */
+
+.remoteJobs{
+    /* border:1px solid red; */
+    width:80%;
+    margin:60px auto auto auto;
+}
+.remoteJobs>h1{
+    text-align:center;
+}
+.remoteJobs>div{
+    /* border:1px solid blue; */
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.remoteJobs>div>div{
+    /* border:1px solid black; */
+    width:30%;
+    padding:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.remoteJobs>div>div:hover{
+    border:1px solid blueviolet;
+}
+.remoteJobs p{
+    font-size: 14px;
+    color:rgb(99, 99, 99);
+    margin-bottom:15px;
+}
+.remoteJobs ul{
+    display: flex;
+    margin:15px 0px;
+    font-size:12px;
+    color:rgb(107, 105, 105);
+    width:80%;
+    justify-content: space-around;
+}
+.remoteJobs button{
+    margin-left: 80%;
+    border:none;
+    background-color: white;
+    color:blueviolet;
+    font-weight:bold;
+}
+.remoteJobs>p{
+    color:blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* <!-- This is the sixth part of the main part : Walkin jobs part. --> */
+.walkinJobs{
+    /* border:1px solid red; */
+    width:80%;
+    margin:60px auto auto auto;
+}
+.walkinJobs>h1{
+    text-align:center;
+}
+.walkinJobs>div{
+    /* border:1px solid blue; */
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.walkinJobs>div>div{
+    /* border:1px solid black; */
+    width:30%;
+    padding:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.walkinJobs>div>div:hover{
+    border:1px solid blueviolet;
+}
+.walkinJobs p{
+    font-size: 14px;
+    color:rgb(99, 99, 99);
+    margin-bottom:15px;
+}
+.walkinJobs ul{
+    display: flex;
+    margin:15px 0px;
+    font-size:12px;
+    color:rgb(107, 105, 105);
+    width:80%;
+    justify-content: space-around;
+}
+.walkinJobs button{
+    margin-left: 80%;
+    border:none;
+    background-color: white;
+    color:blueviolet;
+    font-weight:bold;
+}
+.walkinJobs>p{
+    color:blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* <!-- This is the seventh part of the main part : Two rectangle cards. --> */
+.twoRectangleCards{
+    /* border:1px solid red; */
+    width:50%;
+    margin:40px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.twoRectangleCards>div{
+    width:45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    font-size: 14px;
+    border:0.5px solid rgb(175, 174, 174);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.twoRectangleCards>div:hover{
+    color:blueviolet;
+}
+
+/* <!-- This is the eighth part of the main part : the first horizontal bar. --> */
+.firstBar{
+    /* border:1px solid red; */
+    height:120px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 219, 219, 0.596);
+}
+.firstBar>button{
+    margin:0px 20px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: orange;
+    border:none;
+    border-radius: 2px;
+}
+.firstBar>button:nth-child(3){
+    margin:0px 20px;
+    padding: 10px 50px;
+    background-color: blueviolet;
+}
+
+/* <!-- This is the ninth part of the main part : Aspire to Senior Roles in Career part. --> */
+.headAndFourCard{
+    /* border:1px solid red; */
+    width:50%;
+    margin:40px auto auto auto;
+}
+.headAndFourCard>h1{
+    text-align: center;
+}
+.headAndFourCard>div{
+    /* border: 1px solid blue; */
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,70px);
+    gap:20px 30px;
+    grid-template-areas: 
+    "d1 d2"
+    "d3 d4";
+}
+.headAndFourCard>div>div{
+    /* border:1px solid black; */
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(75, 74, 74);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.headAndFourCard>div>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d1";
+}
+.headAndFourCard>div>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d2";
+}
+.headAndFourCard>div>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d3";
+}
+.headAndFourCard>div>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d4";
+}
+.headAndFourCard>p{
+    text-align: center;
+    font-size: 12px;
+    color: blueviolet;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+/* <!-- This is the tenth part of the main part : Explore Dream Career of Your Choice --> */
+
+.secondBar{
+    /* border:1px solid red; */
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 219, 219, 0.596);
+
+}
+.secondBar>div:nth-child(1){
+    margin-right: 30px;
+}
+.secondBar h1{
+    margin-bottom: 20px;
+}
+.secondBar button{
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+}
+.secondBar>div:nth-child(2)>img{
+    height:100%;
+}
+
+/* <!-- This is the eleventh part of the main part : Explore Our Premium Services part. --> */
+.premiumService{
+    /* border:1px solid red; */
+    width:80%;
+    margin:50px auto auto auto;
+}
+.premiumService>h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.premiumService>div{
+    /* border:1px solid blue; */
+    display: flex;
+}
+.premiumService>div>div{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.premiumService img{
+    width: 100%;
+}
+.premiumService>div>div>div{
+    padding: 20px;
+}
+.premiumService h3{
+    margin-bottom: 10px;
+}
+.premiumService p{
+    font-size: 12px;
+    color: rgb(87, 86, 86);
+    margin-bottom: 10px;
+}
+.premiumService h4{
+    margin-bottom: 50px;
+}
+.premiumService>div>div>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+.premiumService>div>div>div>div>button:nth-child(1){
+    background-color: white;
+    border: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+.premiumService>div>div>div>div>button:nth-child(2){
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.premiumService>p{
+    text-align: center;
+    font-size: 12px;
+    color: blueviolet;
+    margin-top: 15px;
+}
+
+/* <!-- This is the twelth part of the main part : Popular Courses part. --> */
+.populerCourses{
+    /* border:1px solid red; */
+    width:80%;
+    margin:50px auto auto auto;
+
+}
+.populerCourses>h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.populerCourses>div:nth-child(2){
+    margin-bottom: 20px;
+}
+.populerCourses>div:nth-child(2)>button{
+    background-color: white;
+    border:none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.populerCourses>div:nth-child(2)>button:hover{
+    border-bottom: 2px solid blueviolet;
+}
+.populerCourses>div:nth-child(3){
+    /* border:1px solid blue; */
+    display: flex;
+}
+.populerCourses>div:nth-child(3)>div{
+    /* border: 1px solid black; */
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.populerCourses>div:nth-child(3)>div>h3{
+    margin-bottom: 20px;
+}
+.populerCourses>div:nth-child(3)>div>p{
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+    margin-bottom: 10px;
+}
+.populerCourses>div:nth-child(3)>div>h4{
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.populerCourses>div:nth-child(3)>div>div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.populerCourses>div:nth-child(3)>div>div>button:nth-child(1){
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    font-weight: bold;
+}
+.populerCourses>div:nth-child(3)>div>div>button:nth-child(2){
+    padding:5px 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.populerCourses>p{
+    text-align: center;
+    color: blueviolet;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* <!-- This is the last part of the main part : Latest from Blog part --> */
+.latestBlog{
+    /* border:1px solid red; */
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(221, 219, 219, 0.596);
+}
+.latestBlog>h1{
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.latestBlog>div{
+    /* border:1px solid blue; */
+    width:75%;
+    margin: auto;
+    display: flex;
+    
+}
+.latestBlog>div>div{
+    /* border:1px solid black; */
+    width:30%;
+    margin: auto;
+    background-color: white;
+}
+.latestBlog>div>div>img{
+    width:100%;
+}
+.latestBlog>div>div>div{
+    padding:10px;
+}
+/* .latestBlog>div>div:nth-child(1)>div{
+    padding:30px 15px;
+} */
+.latestBlog>div>div:nth-child(1)>img{
+    height: 180px;
+}
+.latestBlog>div>div>div>h4{
+    font-size: 14px;
+}
+.latestBlog>div>div>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+.latestBlog>div>div>div>div>p{
+    font-size: 10px;
+    color: rgb(148, 144, 144);
+}
+.latestBlog>div>div>div>div{
+    margin-top: 30px;
+}
+.latestBlog>p{
+    color: blueviolet;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
