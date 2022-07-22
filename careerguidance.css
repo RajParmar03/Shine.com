@@ -1,0 +1,70 @@
+/* <!-- This is the top marron color bar on the career guidance page. --> */
+.topmaroonbar{
+    /* border:1px solid red; */
+    background-color: #6f42c1;
+    height: 150px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.topmaroonbar>img{
+    width:5%;
+    margin-right: 20px;
+}
+.topmaroonbar>h1{
+    color: white;
+}
+
+/* <!-- This is the Movable bar of the career guidance page. --> */
+.canWeHelp{
+    /* border:1px solid red; */
+    width:90%;
+    margin:30px auto 30px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.canWeHelp .numbers{
+    /* border: 1px solid blue; */
+    width:15%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.canWeHelp .numbers>div{
+    padding: 10px;
+    background-color: silver;
+    border-radius: 50%;
+}
+.canWeHelp .numbers>div:hover{
+    background-color: rgb(58, 58, 253);
+    color: white;
+}
+.canWeHelp .heading>p{
+    line-height: 20px;
+    color: rgb(80, 79, 79);
+}
+.canWeHelp .heading{
+    margin-bottom: 40px;
+}
+.canWeHelp .container{
+    /* border: 1px solid blue; */
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+}
+.canWeHelp .card{
+    /* border: 1px solid black; */
+    padding: 30px 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.canWeHelp .card:hover{
+    border:2px solid green;
+}
+.canWeHelp .card>img{
+    margin-bottom: 10px;
+}
+.canWeHelp .card>p{
+    font-size: 14px;
+    font-weight: bold;
+}

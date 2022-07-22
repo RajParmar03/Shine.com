@@ -1,0 +1,54 @@
+.main{
+    /* border:1px solid red; */
+    width:60%;
+    margin: 50px 100px;
+}
+.main>h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.main>form{
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main>form>input{
+    margin: 10px 0px;
+    padding: 10px 5px;
+}
+.main>form>p{
+    text-align: right;
+    font-weight: bold;
+    color: blueviolet;
+}
+.main>form>p+input{
+    width:25%;
+    background-color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.main .jobtwocards{
+    /* border:1px solid red; */
+    width:60%;
+    margin:20px auto auto 0px;
+    display:flex;
+    justify-content: space-between;
+}
+.main .jobtwocards>div{
+    width:45%;
+    height: 80px;
+    /* border:1px solid blue; */
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main .jobtwocards>div:hover{
+    color:blueviolet;
+}
