@@ -1,0 +1,437 @@
+.exploreTalk {
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 70px;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exploreTalk div {
+    /* border: 1px solid blue; */
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreTalk span {
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.exploreTalk div:nth-child(1){
+    background-color: #9cece0;
+}
+
+.exploreTalk div:nth-child(2){
+    background-color: #ffced7;
+}
+
+.exploreTalk div:nth-child(3){
+    background-color: #99e1ff;
+}
+
+/* <!-- This is 2nd part of the main part of the courses page. --> */
+.headAndFourCard{
+    /* border:1px solid red; */
+    width:80%;
+    margin:40px auto 40px auto;
+}
+.headAndFourCard>h1{
+    text-align: center;
+}
+.headAndFourCard>div{
+    /* border: 1px solid blue; */
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,70px);
+    gap:20px 30px;
+    grid-template-areas: 
+    "d1 d2 d3"
+    "d4 d5 d6";
+}
+.headAndFourCard>div>div{
+    /* border:1px solid black; */
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(75, 74, 74);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.headAndFourCard>div>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d1";
+}
+.headAndFourCard>div>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d2";
+}
+.headAndFourCard>div>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d3";
+}
+.headAndFourCard>div>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d4";
+}
+.headAndFourCard>div>div:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d5";
+}
+.headAndFourCard>div>div:nth-child(6){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: "d6";
+}
+
+/* <!-- This is the tenth part of the main part : Explore Dream Career of Your Choice --> */
+
+.secondBar{
+    /* border:1px solid red; */
+    margin-top: 50px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 219, 219, 0.596);
+
+}
+.secondBar>div:nth-child(1){
+    margin-right: 30px;
+}
+.secondBar h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.secondBar p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.secondBar button{
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.secondBar>div>button:nth-child(4){
+    background-color: blueviolet;
+}
+
+.secondBar>div:nth-child(2)>img{
+    height:100%;
+}
+
+
+/* <!-- This is the 4th part of the main part of the courses page : Recruiters Not Noticing your Skills? --> */
+
+.recruiterNotice{
+    /* border:1px solid red; */
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(199, 198, 198, 0.596);
+
+}
+.recruiterNotice>div:nth-child(1){
+    margin-right: 30px;
+}
+.recruiterNotice h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.recruiterNotice p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.recruiterNotice button{
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.recruiterNotice>div>button:nth-child(4){
+    background-color: blueviolet;
+}
+
+.recruiterNotice>div:nth-child(2)>img{
+    height:100%;
+}
+
+/* <!-- This is the 5th part of the main part of courses page : Popular Courses part. --> */
+.populerCourses{
+    /* border:1px solid red; */
+    width:80%;
+    margin:50px auto auto auto;
+
+}
+.populerCourses>h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.populerCourses>div:nth-child(2){
+    margin-bottom: 20px;
+}
+.populerCourses>div:nth-child(2)>button{
+    background-color: white;
+    border:none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.populerCourses>div:nth-child(2)>button:hover{
+    border-bottom: 2px solid blueviolet;
+}
+.populerCourses>div:nth-child(3){
+    /* border:1px solid blue; */
+    display: flex;
+}
+.populerCourses>div:nth-child(3)>div{
+    /* border: 1px solid black; */
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.populerCourses>div:nth-child(3)>div>h3{
+    margin-bottom: 20px;
+}
+.populerCourses>div:nth-child(3)>div>p{
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+    margin-bottom: 10px;
+}
+.populerCourses>div:nth-child(3)>div>h4{
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.populerCourses>div:nth-child(3)>div>div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.populerCourses>div:nth-child(3)>div>div>button:nth-child(1){
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    font-weight: bold;
+}
+.populerCourses>div:nth-child(3)>div>div>button:nth-child(2){
+    padding:5px 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.populerCourses>p{
+    text-align: center;
+    color: blueviolet;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* <!-- This is the 5th part of the main part of courses page : Popular Assessments part. --> */
+.populerAssessments{
+    /* border:1px solid red; */
+    width:80%;
+    margin:50px auto auto auto;
+}
+.populerAssessments>h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.populerAssessments>div:nth-child(2){
+    margin-bottom: 20px;
+}
+.populerAssessments>div:nth-child(2)>button{
+    background-color: white;
+    border:none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.populerAssessments>div:nth-child(2)>button:hover{
+    border-bottom: 2px solid blueviolet;
+}
+.populerAssessments>div:nth-child(3){
+    /* border:1px solid blue; */
+    display: flex;
+}
+.populerAssessments>div:nth-child(3)>div{
+    /* border: 1px solid black; */
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.populerAssessments>div:nth-child(3)>div>h3{
+    margin-bottom: 20px;
+}
+.populerAssessments>div:nth-child(3)>div>p{
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+    margin-bottom: 10px;
+}
+.populerAssessments>div:nth-child(3)>div>h4{
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.populerAssessments>div:nth-child(3)>div>div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.populerAssessments>div:nth-child(3)>div>div>button:nth-child(1){
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    font-weight: bold;
+}
+.populerAssessments>div:nth-child(3)>div>div>button:nth-child(2){
+    padding:5px 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.populerAssessments>p{
+    text-align: center;
+    color: blueviolet;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* <!-- This is the 6th part of the main part of courses page : Latest from Blog part --> */
+.latestBlog{
+    /* border:1px solid red; */
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(221, 219, 219, 0.596);
+}
+.latestBlog>h1{
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.latestBlog>div{
+    /* border:1px solid blue; */
+    width:75%;
+    margin: auto;
+    display: flex;
+    
+}
+.latestBlog>div>div{
+    /* border:1px solid black; */
+    width:30%;
+    margin: auto;
+    background-color: white;
+}
+.latestBlog>div>div>img{
+    width:100%;
+}
+.latestBlog>div>div>div{
+    padding:10px;
+}
+/* .latestBlog>div>div:nth-child(1)>div{
+    padding:30px 15px;
+} */
+.latestBlog>div>div:nth-child(1)>img{
+    height: 180px;
+}
+.latestBlog>div>div>div>h4{
+    font-size: 14px;
+}
+.latestBlog>div>div>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+.latestBlog>div>div>div>div>p{
+    font-size: 10px;
+    color: rgb(148, 144, 144);
+}
+.latestBlog>div>div>div>div{
+    margin-top: 30px;
+}
+.latestBlog>p{
+    color: blueviolet;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* <!-- This is the 7th part of the main part of courses : Success Stories part.  --> */
+.successStory{
+    /* border:1px solid red; */
+    width:80%;
+    margin: 60px auto 80px auto;
+}
+.successStory>h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.successStory .container{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.successStory .container .card{
+    /* border:1px solid black; */
+    width:25%;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.successStory .container .card>div{
+    /* border:1px solid orange; */
+    height:70px;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 15px;
+}
+.successStory .card>p{
+    line-height: 20px;
+    font-size: 14px;
+    color:rgb(129, 129, 129);
+    margin-bottom: 30px;
+}
+.successStory .card>h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.successStory .card>h3+p{
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+}
+
