@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COURSES PAGE</title>
     <link rel="stylesheet" href="navbar.css">
+    <!-- <link rel="stylesheet" href="header.css"> -->
     <link rel="stylesheet" href="courses.css">
     <link rel="stylesheet" href="footer.css">
 
@@ -61,15 +62,15 @@
     <!-- This is the header part of the courses page. -->
     <header>
         <marquee scrollamount="20">
-            <img
-                src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fhackathon-new-d-yellow.png&w=1920&q=75" />
-            <img
-                src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fwinter_d_home.png&w=1920&q=75" />
-            <img
-                src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fmint_d_banner.png&w=1920&q=75" />
-            <img
-                src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2FInfosys.png&w=1920&q=75" />
-        </marquee>
+        <img
+            src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fhackathon-new-d-yellow.png&w=1920&q=75" />
+        <img
+            src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fwinter_d_home.png&w=1920&q=75" />
+        <img
+            src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fmint_d_banner.png&w=1920&q=75" />
+        <img
+            src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstatic1.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2FInfosys.png&w=1920&q=75" />
+    </marquee>
     </header>
 
     <!-- This is the main part of the courses page. -->
@@ -136,37 +137,37 @@
                 <button>Management</button>
             </div>
             <div>
-                <div>
+                <div id="JS_cp1">
                     <h3>Backend Developer in Python</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:20 Hours|Mode: Online</p>
-                    <h4>₹12999</h4>
+                    <h4>₹<span>12999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_cp1btn">Buy Now</button>
                     </div>
                 </div>
-                <div>
+                <div id="JS_cp2">
                     <h3>Backend Developer in Node.js</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:41 Hours|Mode: Online</p>
-                    <h4>₹12999</h4>
+                    <h4>₹<span>12999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_cp2btn">Buy Now</button>
                     </div>
                 </div>
-                <div>
+                <div id="JS_cp3">
                     <h3>Backend Developer in .Net</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:20 Hours|Mode: Online</p>
-                    <h4>₹12999</h4>
+                    <h4>₹<span>12999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_cp3btn">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -183,37 +184,37 @@
                 <button>Banking Finance</button>
             </div>
             <div>
-                <div>
+                <div id="JS_cp4">
                     <h3>Security Market Basic Module</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:30 minutes</p>
-                    <h4>₹999</h4>
+                    <h4>₹<span>999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_cp4btn">Buy Now</button>
                     </div>
                 </div>
-                <div>
+                <div id="JS_cp5">
                     <h3>Debt Recovery Test</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:365|Mode: Online</p>
-                    <h4>₹999</h4>
+                    <h4>₹<span>999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_cp5btn">Buy Now</button>
                     </div>
                 </div>
-                <div>
+                <div id="JS_cp6">
                     <h3>Maintainance and Realibility Test</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:365|Mode: Online</p>
-                    <h4>₹999</h4>
+                    <h4>₹<span>999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_cp6btn">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -355,6 +356,7 @@
 </body>
 
 <script src="navbar.js"></script>
+<!-- <script src="header.js"></script> -->
 <script src="courses.js"></script>
 
 </html>

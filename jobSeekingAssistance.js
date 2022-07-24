@@ -8,7 +8,16 @@
 //     document.querySelector("#user").innerText = "PLEASE LOGIN FOR THE CUSTOMIZATION";
 // }
 
+
+
+
+
+
+
+
 //This code is for the collact the information for display it on the cart.
+
+
 
 let cartArr = JSON.parse(localStorage.getItem("cartDataList")) || [];
 
@@ -20,7 +29,7 @@ function jsa1cartfunction(){
     }
 
     cartArr.push(cartObject);
-    localStorage.setItem("cartDataList",cartArr);
+    localStorage.setItem("cartDataList",JSON.stringify(cartArr));
 }
 
 document.querySelector("#JS_jsa2btn").addEventListener("click",jsa2cartfunction);
@@ -31,16 +40,16 @@ function jsa2cartfunction(){
     }
 
     cartArr.push(cartObject);
-    localStorage.setItem("cartDataList",cartArr);
+    localStorage.setItem("cartDataList",JSON.stringify(cartArr));
 }
 
 document.querySelector("#JS_jsa3btn").addEventListener("click",jsa3cartfunction);
-function jsa1cartfunction(){
+function jsa3cartfunction(){
     let cartObject = {
         Pname : document.querySelector("#JS_jsa3 h3").innerText,
         Pprice : document.querySelector("#JS_jsa3 h4>span").innerText
     }
 
     cartArr.push(cartObject);
-    localStorage.setItem("cartDataList",cartArr);
+    localStorage.setItem("cartDataList",JSON.stringify(cartArr));
 }

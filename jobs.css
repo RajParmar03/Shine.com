@@ -22,6 +22,7 @@
     text-align: right;
     font-weight: bold;
     color: blueviolet;
+    cursor: pointer;
 }
 .main>form>p+input{
     width:25%;
@@ -31,6 +32,12 @@
     color: white;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+}
+.main>form>p+input:hover{
+    border:2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
 }
 .main .jobtwocards{
     /* border:1px solid red; */
@@ -48,6 +55,11 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.main .jobtwocards>div:hover{
+    border:2px solid blueviolet;
+    font-weight: bold;
 }
 .main .jobtwocards>div:hover{
     color:blueviolet;

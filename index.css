@@ -414,6 +414,10 @@
     border: none;
     color: blueviolet;
     font-weight: bold;
+    cursor: pointer;
+}
+.premiumService>div>div>div>div>button:nth-child(1):hover{
+    font-size: 15px;
 }
 .premiumService>div>div>div>div>button:nth-child(2){
     background-color: blueviolet;
@@ -452,6 +456,7 @@
     font-weight: bold;
     margin-right: 10px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .populerCourses>div:nth-child(2)>button:hover{
     border-bottom: 2px solid blueviolet;
@@ -498,6 +503,12 @@
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
+}
+.populerCourses>div:nth-child(3)>div>div>button:nth-child(2):hover{
+    border:2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
 }
 .populerCourses>p{
     text-align: center;
