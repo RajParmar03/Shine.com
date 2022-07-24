@@ -11,6 +11,7 @@
 
 </head>
 <body>
+    <h2 id="user"></h2>
     <!-- This is the bar above navbar. -->
     <div class="aboveNav">
         <div>
@@ -36,21 +37,21 @@
                 <img src="https://www.shine.com/next/static/images/shine-logo.png" />
                 <input type="text" placeholder="Job title, skills">
             </div>
-            <div>
+            <div id="JS_btns">
                 <button><img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqq1X84rk3TUWB4KoCyR9UHX36sCbdO7cFA&usqp=CAU" /></button>
-                <button><img
+                <button id="JS_cartBtn"><img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTctQkJJxFIy2SH8fEsdtMl8oE-RRHwM9A7w&usqp=CAU" /></button>
-                <button><img
+                <button id="JS_signUpBtn"><img
                         src="https://thumbs.dreamstime.com/b/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" /></button>
             </div>
         </div>
         <div class="navButtons">
-            <div>HOME</div>
-            <div>JOBS</div>
-            <div>JOBS SEEKING ASSISTANCE</div>
-            <div>COURSES</div>
-            <div>CAREER GUIDANCE</div>
+            <div id="JS_home">HOME</div>
+            <div id="JS_jobs">JOBS</div>
+            <div id="JS_jobsAssistance">JOBS SEEKING ASSISTANCE</div>
+            <div id="JS_courses">COURSES</div>
+            <div id="JS_careerGuidance">CAREER GUIDANCE</div>
             <div>BLOG</div>
         </div>
     </div>
@@ -67,7 +68,7 @@
                 <input type="submit" value="Search jobs">
             </form>
             <div class="jobtwocards">
-                <div>Create Job Profile</div>
+                <div id="JS_logInCreateProfile">Create Job Profile</div>
                 <div>Create Job Alert</div>
             </div>
         </div>
@@ -136,4 +137,8 @@
         </div>
     </footer>
 </body>
+
+<script src="navbar.js"></script>
+<script src="jobs.js"></script>
+
 </html>

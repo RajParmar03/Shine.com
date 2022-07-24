@@ -246,6 +246,12 @@
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
+}
+.populerCourses>div:nth-child(3)>div>div>button:nth-child(2):hover{
+    border: 2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
 }
 .populerCourses>p{
     text-align: center;
@@ -321,6 +327,12 @@
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
+}
+.populerAssessments>div:nth-child(3)>div>div>button:nth-child(2):hover{
+    border: 2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
 }
 .populerAssessments>p{
     text-align: center;

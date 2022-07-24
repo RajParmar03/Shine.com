@@ -32,12 +32,17 @@
 .signUpNav>div>button{
     border: 0px;
     border-radius: 5px;
+    margin-left: 20px;
     padding:10px 20px;
     font-weight: bold;
     font-size: 18px;
     background-color:rgb(149, 113, 196) ;
     color:white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.signUpNav>div>button:hover{
+    border: 2px solid black;
 }
 main{
     /* border:1px solid red; */
@@ -82,6 +87,10 @@ mainLeft>div:nth-child(1){
     color: white;
     background-color:rgb(149, 113, 196);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    cursor: pointer;
+}
+.mainLeft>div:nth-child(2)>button:hover{
+    border: 2px solid black;
 }
 .mainLeft>div:nth-child(2)>p:nth-child(4){
     width:65%;
@@ -111,9 +120,7 @@ form{
 form>input{
     padding:10px 10px;
     font-size: 17px;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 20px;    
 }
 form>input:nth-child(3){
     margin-bottom: 0px;
@@ -137,6 +144,10 @@ form>div+input{
     border: 0px;
     font-size: 20px;
     color: white;
+    cursor: pointer;
+}
+form>div+input:hover{
+    border:2px solid black;
 }
 .mainRight>div{
     /* border:1px solid yellow; */
@@ -154,6 +165,10 @@ form>div+input{
     justify-content: space-around;
     align-items:center;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    cursor: pointer;
+}
+.mainRight>div>div:hover{
+    border: 2px solid black;
 }
 .mainRight>div>div>img{
     height: 90%;

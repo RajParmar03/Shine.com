@@ -38,12 +38,15 @@ form>div{
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 form>div>p{
     color: blueviolet;
+    cursor: pointer;
 }
 form label{
     color: rgb(87, 84, 84);
+    cursor: pointer;
 }
 form>div+input{
     background-color: rgb(157, 85, 224);
@@ -52,6 +55,10 @@ form>div+input{
     font-weight: bold;
     color: white;
     margin-bottom: 30px;
+    cursor: pointer;
+}
+form>div+input:hover{
+    border:2px solid black;
 }
 .loginMainUpperLeft>button{
     width:100%;
@@ -79,6 +86,10 @@ form>div+input{
     width:70%;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.loginMainUpperRight>div:hover{
+    border:2px solid black;
 }
 .loginMainUpperRight>div>img{
     height: 80%;
@@ -103,6 +114,10 @@ form>div+input{
     border: 0px;
     background-color: rgb(157, 85, 224);
     color: white;
+    cursor: pointer;
+}
+.loginMainLower>button:hover{
+    border: 2px solid black;
 }
 .loginMainLower>h3{
     color: rgb(116, 113, 113);

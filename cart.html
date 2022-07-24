@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAREER GUIDANCE PAGE</title>
+    <title>CART PAGE</title>
     <link rel="stylesheet" href="navbar.css">
-    
-    <link rel="stylesheet" href="careerguidance.css">
+    <link rel="stylesheet" href="cart.css">
     <link rel="stylesheet" href="footer.css">
 
 </head>
+
 <body>
     <h2 id="user"></h2>
-    <!-- This is the top most bar on the career guidance page. -->
+    <!-- This is the top most bar of the cart page. -->
     <div class="aboveNav">
         <div>
             <img src="https://i.pinimg.com/originals/63/b3/d9/63b3d9ccb82555c2c9611ba41a62044d.png" />
@@ -30,8 +31,7 @@
             <p>Help</p>
         </div>
     </div>
-
-    <!-- This is the navbar of the career guidance page. -->
+    <!-- This is the navbar of the cart page. -->
     <div class="navbar">
         <div class="searchBar">
             <div>
@@ -54,50 +54,43 @@
             <div id="JS_courses">COURSES</div>
             <div id="JS_careerGuidance">CAREER GUIDANCE</div>
             <div>BLOG</div>
-        </div>
+        </div> 
     </div>
 
-    <!-- This is the starting of the main part of the career guidance page. -->
+    <!-- This is the starting of the main part of the cart page. -->
     <main>
-        <!-- This is the top marron color bar on the career guidance page. -->
-        <div class="topmaroonbar">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Learning_outcome.png?20210716213114" />
-            <h1>Career Guidance with personalized recommendations</h1>
-        </div>
-
-        <!-- This is the Movable bar of the career guidance page. -->
-        <div class="canWeHelp">
-            <div class="numbers">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+        <h1 id="user_name">HELLO USER</h1>
+        <P>Please check your cart</P>
+        <div class="cartmain">
+            <div class="items">
+                <!-- <div class="products">
+                    <div>
+                        <h2>Backend Developer in Java</h2>
+                        <h4>₹12,999</h4>
+                    </div>
+                    <div>
+                        <p>Delete</p>
+                    </div>
+                </div> -->
             </div>
-            <div class="heading">
-                <h3>How can we help you?</h3>
-                <p>Make your choice to go ahead</p>
-            </div>
-            <div class="container">
-                <div class="card">
-                    <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon1.png" />
-                    <p>Find the right job</p>
+            <div class="orderSummary">
+                <div class="applyCoupon">
+                    <h2>Apply Coupon</h2>
+                    <form>
+                        <input type="text" id="JS_couponCode" placeholder="Coupon code">
+                        <input type="submit" value="Apply">
+                    </form>
                 </div>
-                <div class="card">
-                    <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon2.png" />
-                    <p>Make a career change</p>
-                </div>
-                <div class="card">
-                    <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon3.png" />
-                    <p>Improve your profile</p>
-                </div>
-                <div class="card">
-                    <img src="https://static1.shine.com/l/s/react/media/images/desktop/ui-list-icon4.png" />
-                    <p>Progress your career</p>
+                <div class="summary">
+                    <h2>Order Summary</h2>
+                    <p>Total :- <span>0</span></p>
+                    <button>Proceed to Buy</button>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- This is the footer part of the career guidance page. -->
+    <!-- This is the footer part of the cart page. -->
     <footer>
         <div class="footerUpper">
             <div class="footerUpperLogo">
@@ -162,7 +155,6 @@
 </body>
 
 <script src="navbar.js"></script>
+<script src="cart.js"></script>
 
-<script src="careerguidance.js"></script>
-
-</html>
+</html> 
