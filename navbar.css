@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+#user{
+    position: sticky;
+    top:0px;
+    background-color: white;
+    height: 32px;
+    border-bottom: 2px solid black;
+}
 .aboveNav{
     /* border: 1px solid red; */
     display: flex;
@@ -24,7 +31,7 @@
 .aboveNav>div>img{
     height: 80%;
 }
-.aboveNav>div>p{
+.aboveNav>div>div>p{
     font-weight: bold;
     font-size: 14px;
     margin-left: 5px;
@@ -32,7 +39,7 @@
 }
 .navbar{
     position: sticky;
-    top:0px;
+    top:34px;
     background-color: white;
 }
 .searchBar{
@@ -78,7 +85,7 @@
     height: 100%;
 }
 .navButtons{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display:flex;
     padding-left: 90px;
     height: 50px;

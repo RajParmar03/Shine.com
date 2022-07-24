@@ -15,7 +15,8 @@
             <img src="https://www.shine.com/next/static/images/shine-logo.png" />
         </div>
         <div>
-            <button>Login</button>
+            <button id="JS_logOut">Logout</button>
+            <button id="JS_logIn">Login</button>
         </div>
     </div>
     <main>
@@ -35,11 +36,11 @@
             <h2>Let's get started, tell us about yourself.</h2>
             <p>It only takes a couple of minutes to get started</p>
             <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="number" placeholder="91  |  Mobile Number">
+                <input type="text" id="JS_signUpName" placeholder="Name">
+                <input type="email" id="JS_signUpEmail" placeholder="Email">
+                <input type="number" id="JS_signUpMobile" placeholder="91  |  Mobile Number">
                 <p>Your details will be visible only to genuine recruiters</p>
-                <input type="password" placeholder="Password">
+                <input type="password" id="JS_signUpPassword" placeholder="Password">
                 <div>
                     <input type="checkbox" name="scales">
                     <label for="scales">By registering, you agree to our terms & condition & privacy policy</label>
@@ -80,4 +81,5 @@
     </footer>
 </body>
 
+<script src="signup.js"></script>
 </html>

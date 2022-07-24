@@ -1,0 +1,72 @@
+main{
+    padding: 50px 100px;
+}
+#user_name+p{
+    font-size: 20px;
+}
+.cartmain{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cartmain .items{
+    /* border:1px solid blue; */
+    width:55%;
+    /* height:70px; */
+}
+.cartmain>.items>div{
+    /* border: 1px solid orange; */
+    width:100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cartmain .items p{
+    font-size: 20px;
+    border:2px solid blueviolet;
+    padding: 5px 10px;
+}
+.cartmain .items p:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.cartmain .orderSummary{
+    /* border:1px solid blue; */
+    width:35%;
+    padding: 20px;
+}
+.cartmain .applyCoupon{
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cartmain .applyCoupon>h2{
+    margin-bottom: 10px;
+}
+.cartmain .applyCoupon input{
+    padding: 10px 20px;
+}
+.cartmain .summary{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cartmain .summary h2{
+    margin-bottom: 20px;
+}
+.cartmain .summary p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cartmain .summary button{
+    padding: 10px 20px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}

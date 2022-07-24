@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+    <h2 id="user"></h2>
     <!-- This is the top most bar above the navbar. -->
     <div class="aboveNav">
         <div>
@@ -38,21 +38,21 @@
                 <img src="https://www.shine.com/next/static/images/shine-logo.png" />
                 <input type="text" placeholder="Job title, skills">
             </div>
-            <div>
+            <div id="JS_btns">
                 <button><img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqq1X84rk3TUWB4KoCyR9UHX36sCbdO7cFA&usqp=CAU" /></button>
-                <button><img
+                <button id="JS_cartBtn"><img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTctQkJJxFIy2SH8fEsdtMl8oE-RRHwM9A7w&usqp=CAU" /></button>
-                <button><img
+                <button id="JS_signUpBtn"><img
                         src="https://thumbs.dreamstime.com/b/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" /></button>
             </div>
         </div>
         <div class="navButtons">
-            <div>HOME</div>
-            <div>JOBS</div>
-            <div>JOBS SEEKING ASSISTANCE</div>
-            <div>COURSES</div>
-            <div>CAREER GUIDANCE</div>
+            <div id="JS_home">HOME</div>
+            <div id="JS_jobs">JOBS</div>
+            <div id="JS_jobsAssistance">JOBS SEEKING ASSISTANCE</div>
+            <div id="JS_courses">COURSES</div>
+            <div id="JS_careerGuidance">CAREER GUIDANCE</div>
             <div>BLOG</div>
         </div>
     </div>
@@ -363,7 +363,7 @@
             <div>
                 Search Your Dream Career
             </div>
-            <div>
+            <div id="JS_profileSignUp">
                 Create Your Profile
             </div>
         </div>
@@ -404,41 +404,41 @@
         <div class="premiumService">
             <h1>Explore Our Premium Services</h1>
             <div>
-                <div>
+                <div id="JS_hp1">
                     <img src="https://static1.shine.com/l/m/product_image/images_all/1640935815_1767.png" />
                     <div>
                         <h3>Application Highlighter</h3>
                         <p>Highlight your job application & improve visibility to recruiter. Increase your chances of
                             getting a</p>
-                        <h4>₹1699</h4>
+                        <h4>₹<span>1699</span></h4>
                         <div>
-                            <button>Explore</button>
+                            <button id="JS_hp1btn">Add to cart</button>
                             <button>Talk to Expert</button>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id="JS_hp2">
                     <img src="https://static1.shine.com/l/m/product_image/images_all/1640925161_7427.png" />
                     <div>
                         <h3>Featured Profile</h3>
                         <p>Highlight your job application & improve visibility to recruiter. Increase your chances of
                             getting a</p>
-                        <h4>₹1999</h4>
+                        <h4>₹<span>1999</span></h4>
                         <div>
-                            <button>Explore</button>
+                            <button id="JS_hp2btn">Add to cart</button>
                             <button>Talk to Expert</button>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id="JS_hp3">
                     <img src="https://static1.shine.com/l/m/product_image/images_all/1640940094_8952.png" />
                     <div>
                         <h3>Application Booster Pack</h3>
                         <p>Highlight your job application & improve visibility to recruiter. Increase your chances of
                             getting a</p>
-                        <h4>₹3099</h4>
+                        <h4>₹<span>3099</span></h4>
                         <div>
-                            <button>Explore</button>
+                            <button id="JS_hp3btn">Add to cart</button>
                             <button>Talk to Expert</button>
                         </div>
                     </div>
@@ -460,37 +460,37 @@
                 <button>Management</button>
             </div>
             <div>
-                <div>
+                <div id="JS_hp4">
                     <h3>Backend Developer in Python</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:20 Hours|Mode: Online</p>
-                    <h4>₹12999</h4>
+                    <h4>₹<span>12999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_hp4btn">Buy Now</button>
                     </div>
                 </div>
-                <div>
+                <div id="JS_hp5">
                     <h3>Backend Developer in Node.js</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:41 Hours|Mode: Online</p>
-                    <h4>₹12999</h4>
+                    <h4>₹<span>12999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_hp5btn">Buy Now</button>
                     </div>
                 </div>
-                <div>
+                <div id="JS_hp6">
                     <h3>Backend Developer in .Net</h3>
                     <p>TestPrepTraining</p>
                     <p>Duration:20 Hours|Mode: Online</p>
-                    <h4>₹12999</h4>
+                    <h4>₹<span>12999</span></h4>
                     <hr>
                     <div>
                         <button>Explore</button>
-                        <button>Buy Now</button>
+                        <button id="JS_hp6btn">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -597,5 +597,8 @@
         </div>
     </footer>
 </body>
+
+<script src="navbar.js"></script>
+<script src="index.js"></script>
 
 </html>

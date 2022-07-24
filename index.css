@@ -246,8 +246,11 @@
     font-size: 14px;
     border:0.5px solid rgb(175, 174, 174);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
 }
 .twoRectangleCards>div:hover{
+    border: 2px solid blueviolet;
+    font-weight: bold;
     color:blueviolet;
 }
 
@@ -383,7 +386,7 @@
     /* border: 1px solid black; */
     width: 30%;
     margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
 .premiumService img{
     width: 100%;
